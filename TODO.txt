@@ -1,0 +1,34 @@
+Lista de cosas pendientes
+
+Autor: Robert Sallent
+Última revisión: 23/03/23
+
+-------------------------------------------------------------------------------------------------------------
+Para implementar en futuras versiones:
+-------------------------------------------------------------------------------------------------------------
+
+- CORE
+	- Cambio de nombre del FrontController a Kernel.
+	- Añadir carpetas app y bootstrap y simplificar la estructura de directorios en la raíz
+	- Los errores de autorización generan error 403
+	- Los errores de controlador o método no válido generan error 404
+	- Vistas de error personalizadas.
+	- Separar en varios el fichero de configuración.
+
+- LIBRARIES
+	- Library File para trabajar con ficheros (borrar, reemplazar...).
+	- Añadir el código HTTP a las redirecciones (para 403 o 404).
+	
+- VIEWS Y TEMPLATE
+	- Sacar el formulario de búsqueda hacia el Template (necesitará dos arrays para los desplegables).
+	
+-------------------------------------------------------------------------------------------------------------
+A evaluar... tal vez no se implemente por motivos docentes y se deja para los cursos de Laravel o Symfony:
+-------------------------------------------------------------------------------------------------------------
+
+- Hacer uso de PSR4 (autoload con namespaces). 
+- Autoload de Composer?
+- Incoporar middleware
+- Incorporar un sistema de seeding para la base de datos.
+
+                
